@@ -3,12 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Links</title>
+  <title>Digital Marketing Resources for Beginners | Learn SEO</title>
+  <meta name="description" content="Explore beginner-friendly digital marketing resources, learn SEO basics, discover search trends, and understand how online marketing works.">
+  <meta name="theme-color" content="#eef5ff">
+  <style>
+    :root { color-scheme: light; --ink:#1f2a44; --blue:#2457c5; --pale:#eef5ff; --line:#d9e3f2; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); background:#f8fbff; line-height:1.6; }
+    header { background:linear-gradient(135deg,#e8f1ff,#f5f0ff); padding:42px 20px 34px; border-bottom:1px solid var(--line); }
+    .wrap { width:min(900px, calc(100% - 32px)); margin:0 auto; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:.78rem; font-weight:700; color:var(--blue); }
+    h1 { font-size:clamp(2rem,5vw,3rem); line-height:1.15; margin:10px 0 14px; }
+    header p { max-width:680px; margin:0; font-size:1.08rem; }
+    main { padding:28px 0 42px; }
+    .intro { margin-bottom:22px; }
+    .resources { display:grid; gap:18px; grid-template-columns:1fr; }
+    .resource { background:white; border:1px solid var(--line); border-radius:16px; padding:22px; box-shadow:0 5px 18px rgba(35,60,100,.05); }
+    .resource h2 { margin:0 0 8px; font-size:1.25rem; }
+    .resource p { margin:0 0 14px; }
+    a { color:#174ab5; text-underline-offset:3px; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid #f0b429; outline-offset:3px; }
+    .link { display:inline-block; padding:10px 14px; border-radius:9px; background:var(--pale); font-weight:700; text-decoration:none; }
+    .link:hover { text-decoration:underline; }
+    .visual { display:block; width:min(100%,520px); height:auto; margin:0 auto 16px; border-radius:12px; }
+    footer { border-top:1px solid var(--line); padding:18px 0; color:#53627b; font-size:.92rem; }
+    @media (min-width:700px) { .resources { grid-template-columns:1fr 1fr; } .resource:first-child { grid-column:1 / -1; } }
+  </style>
 </head>
 <body>
-  <p>Useful digital marketing links</p>
-  <p>https://developers.google.com/search/docs/fundamentals/seo-starter-guide</p>
-  <p>https://trends.google.com/trends/</p>
-  <p>https://blog.hubspot.com/marketing/what-is-digital-marketing</p>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">A beginner's guide</div>
+      <h1>Digital Marketing Resources for Beginners</h1>
+      <p>Start learning how websites appear in search, explore what people are searching for, and understand the basics of digital marketing with these selected resources.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="intro">
+      <img class="visual" src="marketing-resources.svg" alt="Illustration of a laptop, a search magnifier, and a simple upward analytics chart">
+      <h2>Three useful places to start</h2>
+      <p>Use the resources below to learn a topic, explore search interest, and read a beginner-friendly explanation of online marketing.</p>
+    </section>
+    <section class="resources" aria-label="Digital marketing resources">
+      <article class="resource">
+        <h2><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Google SEO Starter Guide</a></h2>
+        <p>Learn how search engines discover and understand pages, and review practical basics for making useful content easier to find.</p>
+        <a class="link" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">Read the SEO guide</a>
+      </article>
+      <article class="resource">
+        <h2><a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google Trends</a></h2>
+        <p>Explore search interest over time and compare topics to support keyword and content ideas.</p>
+        <a class="link" href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Explore search trends</a>
+      </article>
+      <article class="resource">
+        <h2><a href="https://blog.hubspot.com/marketing/what-is-digital-marketing" target="_blank" rel="noopener noreferrer">What Is Digital Marketing? — HubSpot</a></h2>
+        <p>Read an introductory overview of common digital marketing channels and how businesses use them.</p>
+        <a class="link" href="https://blog.hubspot.com/marketing/what-is-digital-marketing" target="_blank" rel="noopener noreferrer">Read the introduction</a>
+      </article>
+    </section>
+  </main>
+  <footer><div class="wrap">A student-created collection of beginner-friendly digital marketing resources.</div></footer>
 </body>
 </html>
